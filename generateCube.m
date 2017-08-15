@@ -1,4 +1,4 @@
-function [x,y,z] = generateCube(N,A)
+function [x,y,z,d3] = generateCube(N,A)
 for i=1:N
        temp = randi(6,1,1);
        if(temp==1)
@@ -37,6 +37,7 @@ xlabel('x axis');
 ylabel('y axis');
 zlabel('z axis');
 axis([-A/2 A/2 -A/2 A/2 -A/2 A/2]);
+d3 = [x;y;z]
 end
 
 

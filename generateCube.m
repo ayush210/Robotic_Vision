@@ -32,11 +32,11 @@ for i=1:N
            z(1,i) = -A/2;
        end
 end
-scatter3(x,y,z,'filled');
-xlabel('x axis');
-ylabel('y axis');
-zlabel('z axis');
-axis([-A/2 A/2 -A/2 A/2 -A/2 A/2]);
+%scatter3(x,y,z,'filled');
+%xlabel('x axis');
+%ylabel('y axis');
+%zlabel('z axis');
+%axis([-A/2 A/2 -A/2 A/2 -A/2 A/2]);
 d3 = [x;y;z]
 end
 
